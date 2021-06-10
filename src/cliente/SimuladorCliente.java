@@ -57,7 +57,7 @@ public class SimuladorCliente {
                 
                 double movimiento = Math.round((Math.random() * 40 + 16) * 100.0) / 100.0;
                 
-                String imagePath = "/home/jahaziel/NetBeansProjects/Simulador/src/image/Ratero.jpg";
+                String imagePath = "/home/jahaziel/NetBeansProjects/Simulador/src/image/libreria.jpg";
                 String img = "photo.jpg";
                 // Establecemos los valores para el paquete segun el protocolo
                 char tipo = 's';// s para string
@@ -79,7 +79,7 @@ public class SimuladorCliente {
                 // Leemos el resultado final
                 String resultado = datosRecepcion.readUTF();
                 
-                Thread.sleep(5000);
+                Thread.sleep(9000);
 
                 // Indicamos en pantalla
                 System.out.println("Solicitud = " + data + "\tResultado = " + resultado);

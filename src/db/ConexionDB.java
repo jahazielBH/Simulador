@@ -20,7 +20,7 @@ public class ConexionDB {
     private Connection connection;
 
     private ConexionDB() {
-        String urldb = "jdbc:postgresql://172.17.0.4:5432/safe";
+        String urldb = "jdbc:postgresql://172.17.0.3:5432/safe";
         String username = "postgres";
         String password = "1999";
         try {
